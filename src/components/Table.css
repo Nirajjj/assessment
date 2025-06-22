@@ -1,0 +1,70 @@
+.tabs-nav {
+  display: flex;
+  list-style: none;
+  margin: 1rem 0 2rem 2rem;
+}
+
+.tabs-nav li {
+  margin-right: 1.5rem;
+}
+
+.tabs-nav a {
+  display: block;
+  padding: 0.625rem 0.125rem;
+  text-decoration: none;
+  color: #6c757d;
+  font-weight: 500;
+  font-size: 0.75rem;
+  border-bottom: 0.1875rem solid transparent;
+  transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+  padding-bottom: 1rem;
+}
+
+.tabs-nav a:hover {
+  color: #007bff;
+}
+
+.tabs-nav a.active {
+  color: #007bff;
+  border-bottom-color: #007bff;
+}
+
+.sites-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 0.1rem solid #b7babd;
+
+  overflow: hidden;
+}
+
+.sites-table th,
+.sites-table td {
+  padding: 0.3rem 1rem;
+  text-align: left;
+  font-size: 0.75rem;
+  vertical-align: middle;
+  color: #6c757d;
+}
+
+.sites-table thead th {
+  background-color: #f8f9fa;
+  font-weight: 600;
+  color: #6c757d;
+  border-bottom: 0.125rem solid #dee2e6;
+}
+
+.sites-table tbody tr {
+  border-bottom: 0.0625rem solid #e9ecef;
+}
+
+.sites-table tbody tr:last-child {
+  border-bottom: none;
+}
+
+.sites-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.sites-table td {
+  height: 1.875rem;
+}
